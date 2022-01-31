@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/GR3QWj2.png)
 
-Remove your unused resources from a lint xml file.
+Remove your unused resources from a lint.xml file.
 
 ✅ res/layout\
 ✅ res/drawable\
