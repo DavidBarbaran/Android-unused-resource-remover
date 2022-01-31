@@ -23,8 +23,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
-
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 
@@ -39,8 +37,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.awt.event.ActionEvent;
 import javax.swing.Timer;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.JTextField;
 import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
