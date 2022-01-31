@@ -23,6 +23,8 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
+
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 
@@ -43,7 +45,6 @@ import javax.swing.JTextField;
 import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.JLabel;
-import java.awt.Color;
 
 public class MainFrame extends JFrame {
 
@@ -61,24 +62,8 @@ public class MainFrame extends JFrame {
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
-			public void run() {
+			public void run() {		
 				try {
-					try {
-					      UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
-
-			    } 
-			    catch (UnsupportedLookAndFeelException e) {
-			       // handle exception
-			    }
-			    catch (ClassNotFoundException e) {
-			       // handle exception
-			    }
-			    catch (InstantiationException e) {
-			       // handle exception
-			    }
-			    catch (IllegalAccessException e) {
-			       // handle exception
-			    }
 					MainFrame frame = new MainFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
