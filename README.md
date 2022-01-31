@@ -22,8 +22,9 @@ Clean and build recommended and check usages of method "resources.getIdentifier(
 
 When generating files in the res/values folder, usually in strigs.xml. Replaces special characters or ascii codes.
 Some examples:
-"&#160;" = "&nbsp"
-"&#8230;" = "..."
+
+"& #160;" = "&nbsp"\
+"& #8230;" = "..."
 
 I hope to solve it soon.
 
