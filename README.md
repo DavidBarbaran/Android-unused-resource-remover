@@ -11,7 +11,7 @@ Remove your unused resources from a lint.xml file.
 ✅ res/font\
 ✅ res/menu\
 ✅ res/transition\
-✅ res/sxml\
+✅ res/xml\
 ✅ res/values
 
 Review should be taken when deciding to delete a resource identified as not being used by lint, since there are resources that lint finds unused, but are used internally by the application.
@@ -20,7 +20,7 @@ Clean and build recommended and check usages of method "resources.getIdentifier(
 
 ### Known issues 🐛
 
-When generating files in the res/values folder, usually in strigs.xml. Replaces special characters or ascii codes.
+When generating files in the res/values folder, usually in strigs.xml. Replaces special characters or ascii codes. Everything else working fine.
 Some examples:
 
 "& #160;" = "&nbsp"\
