@@ -13,3 +13,18 @@ Remove your unused resources from a lint xml file.
 ✅ res/transition\
 ✅ res/sxml\
 ✅ res/values\
+
+Care and review should be taken when deciding to delete a resource identified as not being used by lint, since there are resources that lint finds unused, but are used internally by the application.
+
+### Known issues 🐛
+
+When generating files in the res/values folder, usually in strigs.xml. Replaces special characters or ascii codes.
+Some examples:
+&#160; = &nbsp
+&#8230; = ...
+
+I hope to solve it soon.
+
+### Reporting issues or improvements  🛠
+
+Found a bug or a problem on a specific feature? Open an issue on  [Github issues](https://github.com/DavidBarbaran/Android-unused-resource-remover/issues)
