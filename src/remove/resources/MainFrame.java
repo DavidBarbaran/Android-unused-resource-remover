@@ -44,6 +44,7 @@ import javax.swing.JLabel;
 
 public class MainFrame extends JFrame {
 
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField txtFile;
 
